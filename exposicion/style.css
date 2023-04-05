@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+:root{
+    --background-color: transparent;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color:cornflowerblue;
+    font-family: 'Abel', sans-serif;
+}
+.box{
+   
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    /* background-image: url(./road-7705909_1920.jpg);
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center; */
+    background-color: rgb(69, 75, 109);
+  
+    
+    
+    
+
+}
+.boton{
+   
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding-right: 25px;
+  
+}
+.boton button{
+    padding: 12px ;
+    border-radius: 25px;
+    width: 15%;
+    border: none;
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.288);
+    background-color: rgb(13, 202, 202) ;
+    color: white;
+    font-size: 18px;
+
+}
+.boton button:hover{
+    background-color:  rgb(48, 129, 129);
+}
+.contenedor{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    position: relative;
+
+}
+.input1{
+    
+    height: 100px;
+    width: 100%;
+  
+   
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#nombre{
+    padding: 12px;
+    width: 85%;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    font-size: 18px ;
+    color: white;
+
+}
+.input1 label{
+    margin-left: 30px;
+    font-size: 18px;
+   
+    
+    
+ 
+    
+    
+}
+
+.input2{
+   
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.input2 input{
+    padding: 12px;
+    width: 85%;
+   
+  
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: var(--background-color);
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: white;
+
+}
+.input2 label{
+    margin-left: 30px;
+    font-size: 18px;
+}
+.boton-agregar{
+    display: flex;
+   
+    justify-content: center;
+    margin-top: 15px;
+   
+    width: 100%;
+
+}
+.boton-agregar button{
+    padding: 12px ;
+    border-radius: 25px;
+    width: 70%;
+    border: none;
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.288);
+    background-color: rgb(13, 202, 202);
+   
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+
+}
+.boton-agregar button:hover{
+    background-color:  rgb(3, 101, 248);
+}
+h1{
+    position: absolute;
+    top: 10px;
+}
+.informacion{
+ 
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    position: relative;
+   
+}
+.input3{
+  
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+.input3 input{
+    padding: 12px;
+    width: 85%;
+    
+   
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: var(--background-color);
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: white;
+}
+.input4{
+  
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+   
+ 
+   
+
+}
+.input4 input{
+    padding: 12px;
+    width: 85%;
+   
+   
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: var(--background-color);
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: white;
+
+
+}
+.input3 label{
+    margin-left: 30px;
+    font-size: 18px;
+}
+.input4 label{
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.super-box{
+    margin: 40px auto;
+    width: 80%;
+    height: 90vh;
+    display: flex;
+ 
+   /*  box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.39), 5px 5px 3px 3px rgba(0, 0, 0, 0.288); */
+   
+}
+.demoracion{
+    width: 50%;
+    height: 100%;
+   
+    /* background-color: rgb(13, 202, 202); */
+    background-color: white;
+ 
+}
+@media all and (  max-width:900px ){
+    .super-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+   
+        margin: auto;
+       
+    }
+    .box{
+        width: 100%;
+        height: 100%;
+        
+        
+       
+    }
+    .informacion{
+        height: 100%;
+        
+    }
+    .demoracion{
+        width: 100%;
+        height: 20%;
+
+    }
+    .input1{
+      
+        margin-top: 50px;
+    }
+    .aceptar{
+      
+        margin-top: 28px;
+        
+    }
+
+    
+}
+
